@@ -10,6 +10,11 @@ Dockerfile for [Apache Zookeeper](https://zookeeper.apache.org/)
 
 ##Usage
 
+Build docker image:
+
+- ```cd path/to```
+  ```bin/build.sh```
+
 Start a single node:
 
 - ```cd path/to```
