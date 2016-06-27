@@ -13,17 +13,17 @@ Dockerfile for [Apache Zookeeper](https://zookeeper.apache.org/)
 Build docker image:
 
 - ```cd path/to```
-  ```bin/build.sh```
+- ```bin/build.sh```
 
 Start a single node:
 
 - ```cd path/to```
-  ```bin/run-single-node.sh```
+- ```bin/run-single-node.sh```
 
 Start a quorum:
 
 - ```cd path/to```
-  ```bin/run-quorum.sh```
+- ```bin/run-quorum.sh```
 
 ##Note
 
