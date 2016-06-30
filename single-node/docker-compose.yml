@@ -2,10 +2,6 @@ version: '2'
 services:
   zookeeper:
     image: "maaydin/centos-7-zookeeper"
-    expose:
-    - "2181"
-    expose:
-    - "2888-3888"
     environment:
       - id=1
     env_file: zoo.env

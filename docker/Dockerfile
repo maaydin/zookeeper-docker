@@ -20,5 +20,6 @@ yum clean all; \
 rm -f /tmp/*; \
 head -n -1 /etc/yum.conf > /etc/yum.conf;
 
+EXPOSE 2181 2888 3888
 
 CMD ["/usr/bin/start-zookeeper.sh"]

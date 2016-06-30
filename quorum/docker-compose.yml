@@ -18,10 +18,6 @@ services:
     networks:
       app_net:
         ipv4_address: 172.20.0.2
-    expose:
-    - "2181"
-    expose:
-    - "2888-3888"
     environment:
       - id=1
     env_file: zoo.env
@@ -31,10 +27,6 @@ services:
     networks:
       app_net:
         ipv4_address: 172.20.0.3
-    expose:
-    - "2181"
-    expose:
-    - "2888-3888"
     environment:
       - id=2
     env_file: zoo.env
@@ -44,10 +36,6 @@ services:
     networks:
       app_net:
         ipv4_address: 172.20.0.4
-    expose:
-    - "2181"
-    expose:
-    - "2888-3888"
     environment:
       - id=3
     env_file: zoo.env
